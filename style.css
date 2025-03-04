@@ -2,17 +2,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-html, body {
-    height: 100%;
-}
-
-.card {
-    min-height: 100%;
+.header {
+    background-color: #1F2937;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+
 }
 
-.container {
-    flex: 1;
+.head {
+    color: #f9faf8;
+    font-size: 24px;
+    align-self: center;
+
 }
 
+ul {
+    display: flex;
+    color: #e5e7eb;
+    gap: 8px;
+    list-style: none;
+    font-size: 18px;
+}
