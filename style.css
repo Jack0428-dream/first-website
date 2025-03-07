@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -7,7 +9,6 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 16px;
-
 }
 
 .head {
@@ -69,4 +70,43 @@ img {
     padding: 10px;
     align-self: center;
     object-fit: cover;
+}
+
+.secondbox {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagebox {
+    display: flex;
+    justify-self: center;
+}
+
+.thirdbox {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 40px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 90%;
+}
+
+.person {
+    font-size: 24px;
+    font-weight: 900;
+    align-self: self-end;
 }
