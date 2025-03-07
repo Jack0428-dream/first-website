@@ -54,7 +54,7 @@ ul {
     font-size: 18px;
 }
 
-button {
+.first {
     background-color: #3882f6;
     border: none;
     color: white;
@@ -109,4 +109,23 @@ img {
     font-size: 24px;
     font-weight: 900;
     align-self: self-end;
+}
+
+.fourthbox {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.actionbox {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.narr {
+    font-size: 18px;
 }
