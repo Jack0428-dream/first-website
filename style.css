@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 16px;
+    flex: 0;
 }
 
 .head {
@@ -23,7 +24,7 @@ ul {
     padding: 0;
     align-self: center;
     color: #e5e7eb;
-    gap: 8px;
+    gap: 20px;
     list-style: none;
     font-size: 18px;
 }
@@ -34,6 +35,7 @@ ul {
     justify-content: space-around;
     padding: 40px;
     padding-bottom: 70px;
+    flex: 1;
 }
 
 .content {
@@ -74,6 +76,7 @@ img {
 
 .secondbox {
     display: flex;
+    flex-direction: column;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -81,18 +84,36 @@ img {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    flex: 1;
 }
 
 .imagebox {
     display: flex;
     justify-self: center;
+    align-items: center;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 0;
 }
+
+figure {
+    text-align: center;
+}
+
+.image {
+    border-radius: 10px;
+    padding: 0;
+    border: 5px solid #3882f6 ;
+}
+
 
 .thirdbox {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 40px;
+    padding: 55px;
+    flex-grow: 1;
+    flex: 1;
 }
 
 .quote {
@@ -102,30 +123,62 @@ img {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    max-width: 90%;
+    max-width: 65%;
 }
 
 .person {
     font-size: 24px;
     font-weight: 900;
-    align-self: self-end;
+    align-self: center;
+    margin-left: 40%;
 }
 
 .fourthbox {
     display: flex;
     justify-content: center;
+    flex-grow: 1;
     flex: 1;
-    padding: 20px;
 }
 
 .actionbox {
+    display: flex;
     background-color: #3882f6;
     border-radius: 5px;
-    padding: 20px;
-    font-size: 24px;
+    padding: 30px;
+    margin: 55px;
+    width: 800px;
+    justify-content: space-around;
+} 
+
+.actiontitle {
+    font-size: 18px;
     color: #f9faf8;
+    align-self: center;
 }
 
-.narr {
+.actiontext{
+    font-size: 12px;
+}
+
+.second {
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 8px 22px;
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
     font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#e5e7eb;
+    padding: 15px;
+    flex: 0;
 }
